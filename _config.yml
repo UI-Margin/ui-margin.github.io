@@ -1,11 +1,9 @@
-title: Starter Template
-author: Panoramedia
-email: panoramedia@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  A Site Starter Materialize Templates for Jekyll
+title: 
+author: 
+email: 
+description: > 
 
-twitter_username: macrod68
-github_username:  macrod68
+github_username:  UI-Margin
 
-sass:
+scss:
     style: compressed
