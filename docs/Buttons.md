@@ -5,7 +5,7 @@ permalink: /Buttoms/
 ---
 
 <div class="container">
-    <h1 class="page-title">{{ page.title | escape }}</h1>
+    <h1 class="page-title">{{ page.title | escape }} - Кнопка</h1>
 
     <div class="section">
         <h5>Raised</h5> 
