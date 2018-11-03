@@ -1,5 +1,7 @@
 ---
 layout: post
+categories: logs
+link: logs
 ---
 <section>
 	<h5>Latest Post</h5>
