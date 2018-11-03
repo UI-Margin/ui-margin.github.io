@@ -1,0 +1,131 @@
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+body {
+  color: #F2F2F2;
+}
+
+.header-main {
+  margin-top: 45px;
+  color: #00204A;
+}
+
+.header-main p > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #C4C4C4;
+}
+
+.header-main p > a:hover {
+  color: blue;
+}
+
+.section-main {
+  margin-top: 15px;
+}
+
+.section-main header {
+  background-color: #0E3464;
+  padding: 15px;
+  text-indent: 15px;
+  font-weight: 600;
+  color: #F2F2F2;
+  margin-bottom: 25px;
+}
+
+.section-main .link-main > a {
+  margin: 25px 0;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  vertical-align: middle;
+  padding: 9px 18px;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
+  letter-spacing: 1px;
+}
+
+.section-main .link-main .docs {
+  border: 3px solid;
+  border-color: #00204A;
+  background-color: #00204A;
+  color: white;
+}
+
+.section-main .link-main .docs:hover {
+  border-color: #6080eb;
+  background-color: #6080eb;
+  -webkit-box-shadow: 0px 2px 0 #496EE8, 2px 4px 6px #496EE8;
+          box-shadow: 0px 2px 0 #496EE8, 2px 4px 6px #496EE8;
+}
+
+.section-main .link-main .github {
+  border: 3px solid;
+  border-color: #34495e;
+  color: #34495e;
+}
+
+.section-main .link-main .github:hover {
+  border: 3px solid;
+  border-color: #34495e;
+  background-color: #34495e;
+  -webkit-box-shadow: 0px 2px 0 #34495e, 2px 4px 6px #34495e;
+          box-shadow: 0px 2px 0 #34495e, 2px 4px 6px #34495e;
+  color: white;
+}
+
+.section-main .link-main .download {
+  background-color: #006DFF;
+  color: white;
+}
+
+.section-main .link-main .download:hover {
+  -webkit-box-shadow: 0px 2px 0 #006DFF, 2px 4px 6px #006DFF;
+          box-shadow: 0px 2px 0 #006DFF, 2px 4px 6px #006DFF;
+}
+
+.footer-main {
+  color: #00204A;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.footer-main--container {
+  margin: 7px auto;
+}
+
+.footer-main--container a {
+  text-decoration: none;
+}
+
+.footer-main--container a:hover {
+  color: #00204A;
+}
+
+.logo-main {
+  width: 235px;
+}
+
+@media (min-width: 768px) {
+  .section-main {
+    margin-top: 45px;
+  }
+  .section-main header {
+    text-indent: 25px;
+  }
+  .logo-main {
+    width: 240px;
+  }
+}
+
+@media (min-width: 993px) {
+  .logo-main {
+    width: 300px;
+  }
+}
+/*# sourceMappingURL=example.css.map */

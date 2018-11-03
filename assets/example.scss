@@ -1,0 +1,105 @@
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+
+body {
+	color: #F2F2F2;
+}
+
+.header-main {
+	margin-top: 45px;
+	color: #00204A;
+	p > a {
+		text-decoration: none;
+		font-weight: bold;
+		color: #C4C4C4;
+		&:hover {
+			color: blue;
+		}
+	}
+}
+
+.section-main {
+	margin-top: 15px;
+	header {
+		background-color: #0E3464;
+		padding: 15px;
+		text-indent: 15px;
+		font-weight: 600;
+		color: #F2F2F2;
+		margin-bottom: 25px;
+	}
+	.link-main {
+		> a {
+			margin: 25px 0;
+			text-align: center;
+			user-select: none;
+			vertical-align: middle;
+			padding: 9px 18px;
+			text-decoration: none;
+			font-weight: 700;
+			cursor: pointer;
+			transition: all 150ms linear;
+			letter-spacing: 1px;
+		}
+		.docs {
+			border: 3px solid;
+			border-color: #00204A;
+			background-color: #00204A;
+			color: white;
+			&:hover {
+				border-color: #6080eb;
+				background-color: #6080eb;
+				box-shadow: 0px 2px 0 #496EE8, 2px 4px 6px #496EE8;
+			}
+		}
+		.github {
+			border: 3px solid;
+			border-color: #34495e;
+			color: #34495e;
+			&:hover {
+				border: 3px solid;
+				border-color: #34495e;
+				background-color: #34495e;
+				box-shadow: 0px 2px 0 #34495e, 2px 4px 6px #34495e;
+				color: white;
+			}
+		}
+		.download {
+			background-color: #006DFF;
+			color: white;
+			&:hover {
+				box-shadow: 0px 2px 0 #006DFF, 2px 4px 6px #006DFF;
+			}
+		}
+	}
+}
+
+.footer-main {
+	color: #00204A;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	&--container {
+		margin: 7px auto;
+		a {
+			text-decoration: none;
+			&:hover {
+				color: #00204A;
+			}
+		}
+	}
+}
+
+.logo-main {width: 235px;}
+
+@media (min-width: 768px) {
+	.section-main {
+		margin-top: 45px;
+		header {text-indent: 25px;}
+	}
+	.logo-main {width: 240px;}
+}
+
+@media (min-width: 993px) {
+	.logo-main {width: 300px;}
+}
