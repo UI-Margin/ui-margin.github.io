@@ -1,23 +1,6 @@
-$screen-layout: (
-	sm: 544px,
-	md: 768px,
-	l: 993px,
-	lg: 1200px,
-	xl: 1600px
-);
 *, ::after, ::before {
 	box-sizing: border-box;
 }
-
-// FlexBox сетка 15 колонок
-$flexbox-columns: 15;
-
-// CSS Grid Layout сетка 12 колонок
-$grid-columns: 12;
-$grid-rows: 13;
-
-@import "grid";
-@import "flexbox";
 
 .flex-row							{ flex-direction: row; }
 .flex-column						{ flex-direction: column; }
