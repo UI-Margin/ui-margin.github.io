@@ -1,3 +1,3 @@
 ---
-layout: docs
+layout: home-docs
 ---
