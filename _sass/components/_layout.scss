@@ -15,6 +15,7 @@ $flexbox-columns: 15;
 // CSS Grid Layout сетка 12 колонок
 $grid-columns: 12;
 $grid-rows: 13;
+
 @import "grid";
 @import "flexbox";
 
