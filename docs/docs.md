@@ -1,7 +1,8 @@
 ---
-layout: docs
+layout: page
+title: Home
+permalink: /docs/
 ---
-
 <header class="header-main text-center">
 	<a href="/"><img src="{{ "/assets/img/logo.png" | relative_url }}" alt="{{ site.title }}"></a>
 	<p><a href="logs">Актуальная версия: 0.4.0</a></p>
