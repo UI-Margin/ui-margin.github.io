@@ -3,27 +3,5 @@ layout: page
 title: Home
 permalink: /docs/
 ---
-<header class="header-main text-center">
-	<a href="/"><img src="{{ "/assets/img/logo.png" | relative_url }}" alt="{{ site.title }}"></a>
-	<p><a href="logs">Актуальная версия: 0.4.0</a></p>
-</header>
-<main class="main-main">
-	<section class="section-main">
-		<header class="container-small">
-			{{ content }}
-		</header>
-		<div class="link-main content grid">
-			<a href="{{ "docs" | relative_url }}" class="docs grid-12 sm:grid-6 justify-self-center h5"><i class="fas fa-book"></i>&nbsp;&nbsp;Learn
-				More</a>
-			<a href="https://github.com/UI-Margin/ui-margin.github.io" class="github grid-12 sm:grid-6 justify-self-center h5"><i
-				 class="fab fa-github"></i>&nbsp;&nbsp;GitHub</a>
-			<a href="" class="download grid-12 justify-self-center h5"><i class="fas fa-download"></i>&nbsp;&nbsp;Download 2.5MB</a>
-		</div>
-	</section>
-</main>
-<footer class="footer-main">
-	<div class="footer-main--container">
-		<p class="text-center small"><a href="/">Код распространяется по лицензии MIT.</a></p>
-		<p class="text-center">© 2018 Margin Studio</p>
-	</div>
-</footer>
+
+Стартавая страница документации.
