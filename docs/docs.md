@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Home
-permalink: /docs/
+permalink: /docs
 ---
 
 Стартавая страница документации.
