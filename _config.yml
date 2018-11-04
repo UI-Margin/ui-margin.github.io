@@ -1,11 +1,9 @@
 title: UI-Margin
-author: Panoramedia
-email: panoramedia@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  A Site Starter Materialize Templates for Jekyll
+author: Dubium
+email: 
+description: > 
 
-twitter_username: macrod68
-github_username:  macrod68
+github_username: UI-Margin
 
 sass:
     style: compressed
