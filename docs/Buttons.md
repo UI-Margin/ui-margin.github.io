@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Buttons
-permalink: /Buttons/
+permalink: /docs/Buttons/
 ---
 
 <div class="container">
