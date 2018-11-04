@@ -1,0 +1,14 @@
+.block			{display: block;}
+.hidden			{display: none;}
+.inline-flex	{display: inline-flex;}
+.inline-grid	{display: inline-grid;}
+.subgrid		{display: subgrid;}
+@each $screen, $layout in $screen-layout {
+	@media screen and (min-width: $layout) { 
+		.#{$screen}\:block			{display: block;}
+		.#{$screen}\:hidden			{display: none;}
+		.#{$screen}\:inline-flex	{display: inline-flex;}
+		.#{$screen}\:inline-grid	{display: inline-grid;}
+		.#{$screen}\:subgrid		{display: subgrid;}
+	}
+}

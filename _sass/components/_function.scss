@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1.25;
+}
+
+// Маленькие девайсы (Смартфон)
+$screen-sm: 544px;
+
+// Маленькие девайсы пейзаж (Смартфон пейзаж)
+$screen-md: 768px;
+
+// Средние девайсы (Планшет)
+$screen-l: 993px;
+
+// Большие девайсы (Ноутбук)
+$screen-lg: 1200px;
+
+// Очень большие девайсы (Компьютер)
+$screen-xl: 1600px;
+
+// padding отступ справа и слева
+$grid-width: 15px;
