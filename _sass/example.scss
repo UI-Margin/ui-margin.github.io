@@ -1,13 +1,22 @@
 @import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
-
 body {
 	color: #F2F2F2;
 }
-
+.body-main {
+	display: grid;
+	grid-gap: 15px;
+	grid-template-areas:
+	"header"
+	"main"
+	"footer";
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.header-main {grid-area: header;}
+.main-main {grid-area: main;}
+.footer-main {grid-area: footer;}
 .header-main {
 	margin-top: 30px;
 	color: #00204A;
-	a .logo-
 	p > a {
 		text-decoration: none;
 		font-weight: bold;
@@ -17,7 +26,6 @@ body {
 		}
 	}
 }
-
 .section-main {
 	margin-top: 15px;
 	header {
@@ -103,17 +111,3 @@ body {
 @media (min-width: 993px) {
 	.logo-main {width: 300px;}
 }
-
-.body-main {
-	display: grid;
-	grid-gap: 15px;
-	grid-template-areas:
-	"header"
-	"main"
-	"footer";
-	grid-template-rows: 1fr 1fr 1fr;
-}
-
-.header-main {grid-area: header;}
-.main-main {grid-area: main;}
-.footer-main {grid-area: footer;}
