@@ -3,11 +3,15 @@
 
 {% include head.html %}
 
-<body>
-
-	{% include sidebar.html %}
-
-	{{ content }}
+<body class="docs">
+	
+	<nav class="nav">
+		{% include sidebar.html %}
+	</nav>
+	
+	<main class="main">
+		{{ content }}
+	</main>
 
 	{% include script.html %}
 
