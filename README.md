@@ -1,3 +1,5 @@
+[![Travis](https://travis-ci.org/UI-Margin/UI-Margin.svg?branch=master)](https://travis-ci.org/VodkaBears/Remodal)
+
 # Jekyll Materialize Starter Template v0.1
 
 *A Site Starter Materialize Templates.
@@ -7,14 +9,29 @@ The theme is a fork of the [minima][1]
 ![minima theme preview](/screenshot.png)
 
 
-# License
+## License
 
-The theme is available as open source under the terms of the [MIT License][2].
+```
+The MIT License (MIT)
 
-[Materialize][3] a  modern responsive front-end framework based on Material Design
+Copyright (c) 2018 Mikhail Vostroknutov
 
-Copyright © 2017 Marco Damiani. Powered by <a href="http://jekyllrb.com">Jekyll</a>
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-[1]: https://github.com/jekyll/minima
-[2]: https://opensource.org/licenses/MIT
-[3]: http://materializecss.com/
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+```
