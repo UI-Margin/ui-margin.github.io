@@ -110,6 +110,7 @@ body {
 	"header"
 	"main"
 	"footer"
+	grid-template-rows: 1fr 1fr 1fr;
 }
 
 .header-main {grid-area: header;}
