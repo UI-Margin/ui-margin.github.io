@@ -22,10 +22,10 @@
 }
 @for $i from 1 through $grid-columns {
 	.grid-#{$i} {
-		grid-column-start: span $i;
+		grid-column: span $i;
 	}
 	.grid-row-#{$i} {
-		grid-row-start: span $i;
+		grid-row: span $i;
 	}
 }
 @each $screen, $layout in $screen-layout {
@@ -45,10 +45,10 @@
 		}
 		@for $i from 1 through $grid-columns {
 			.#{$screen}\:grid-#{$i} {
-				grid-column-start: span $i;
+				grid-column: span $i;
 			}
 			.#{$screen}\:grid-row-#{$i} {
-				grid-row-start: span $i;
+				grid-row: span $i;
 			}
 		}
 	}
