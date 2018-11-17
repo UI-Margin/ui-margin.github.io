@@ -1,4 +1,4 @@
-[![Travis](https://travis-ci.org/UI-Margin/UI-Margin.svg?branch=master)](https://travis-ci.org/VodkaBears/Remodal)
+[![Travis](https://travis-ci.org/UI-Margin/UI-Margin.svg?branch=master)](https://travis-ci.org/UI-Margin/UI-Margin)
 
 # Jekyll Materialize Starter Template v0.1
 
