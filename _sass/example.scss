@@ -73,7 +73,6 @@ body {
 		}
 	}
 }
-
 .footer-main {
 	color: #00204A;
 	font-weight: bold;
@@ -93,23 +92,16 @@ body {
 @media (max-width: 544px) {
 	.logo-main {width: 70%;}
 }
-@media (max-width: 768px) {
-	
-	.footer-main {
-		position: relative;
-	}
-}
-
-
-
 @media (min-width: 768px) {
 	.section-main {
 		margin-top: 45px;
 		header {text-indent: 25px;}
 	}
 	.logo-main {width: 240px;}
+	.footer-main {
+		position: relative;
+	}
 }
-
 @media (min-width: 993px) {
 	.logo-main {width: 300px;}
 }
