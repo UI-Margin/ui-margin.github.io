@@ -104,3 +104,16 @@ body {
 @media (min-width: 993px) {
 	.logo-main {width: 300px;}
 }
+
+.body-main {
+	display: grid;
+	grid-gap: 15px;
+	grid-template-areas:
+	"header"
+	"main"
+	"footer"
+}
+
+.header-main {grid-area: header;}
+.main-main {grid-area: main;}
+.footer-main {grid-area: footer;}
