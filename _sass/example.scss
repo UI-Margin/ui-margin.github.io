@@ -121,11 +121,11 @@ $primary-bg: #0E3464;
 $primary-a-bg: #00204A;
 .sidebar {
 	background-color: $primary-bg;
+	max-width: 250px;
 	&-menu {
-		font-size: 16px;
+		font-size: 12pt;
 		font-family: sans-serif;
 		color: #ffffff;
-		max-width: 250px;
 		background: $primary-bg;
 		&,
 		& ul {
