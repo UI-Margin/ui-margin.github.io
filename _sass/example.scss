@@ -119,59 +119,62 @@ body {background-color: #F2F2F2;}
 $primary-hover: #006DFF;
 $primary-bg: #0E3464;
 $primary-a-bg: #00204A;
-.sidebar-menu {
-	font-size: 16px;
-	font-family: sans-serif;
-	color: #ffffff;
-	max-width: 250px;
-	background: $primary-bg;
-	&,
-	& ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-	}
-	li {
-		a {
-			position: relative;
-			display: block;
-			color: #ffffff;
-			text-decoration: none;
-			padding: 20px 25px;
-			> span {
-				margin-right: 30px;
-			}
+.sidebar {
+	background-color: $primary-bg;
+	.sidebar-menu {
+		font-size: 16px;
+		font-family: sans-serif;
+		color: #ffffff;
+		max-width: 250px;
+		background: $primary-bg;
+		&,
+		& ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
 		}
-		&.have-children {
-			position: relative;
-			&:after {
-				right: 15px;
-				top: 17px;
-				border: solid transparent;
-				content: "\f054";
-				position: absolute;
-				pointer-events: none;
-				transition: all 0.2s ease;
-				font-family: 'FontAwesome';
-			}
-			a:hover {
-				background: $primary-hover;
-			}
-		}
-		ul {
-			display: none;
+		li {
 			a {
-				background: $primary-a-bg;
+				position: relative;
+				display: block;
+				color: #ffffff;
+				text-decoration: none;
+				padding: 20px 25px;
+				> span {
+					margin-right: 30px;
+				}
+			}
+			&.have-children {
+				position: relative;
+				&:after {
+					right: 15px;
+					top: 17px;
+					border: solid transparent;
+					content: "\f054";
+					position: absolute;
+					pointer-events: none;
+					transition: all 0.2s ease;
+					font-family: 'FontAwesome';
+				}
+				a:hover {
+					background: $primary-hover;
+				}
+			}
+			ul {
+				display: none;
+				a {
+					background: $primary-a-bg;
+				}
 			}
 		}
-	}
-	:after {
-		transform: rotate(-90deg);
-	}
-	.active {
-		background-color: $primary-hover;
-		&:after {
-			transform: rotate(90deg);
+		:after {
+			transform: rotate(-90deg);
+		}
+		.active {
+			background-color: $primary-hover;
+			&:after {
+				transform: rotate(90deg);
+			}
 		}
 	}
 }
