@@ -121,7 +121,7 @@ $primary-bg: #0E3464;
 $primary-a-bg: #00204A;
 .sidebar {
 	background-color: $primary-bg;
-	.&-menu {
+	&-menu {
 		font-size: 16px;
 		font-family: sans-serif;
 		color: #ffffff;
