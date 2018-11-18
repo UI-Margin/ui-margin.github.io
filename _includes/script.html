@@ -1,5 +1,6 @@
-<!-- Scripts -->
+<!-- Begin Scripts -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
 <script>
 	$(document).ready(function () {
 		var speed = 100;
@@ -17,3 +18,12 @@
 		});
 	});
 </script>
+
+<script>
+	$(".menu-link").click(function () {
+		$("#navigation").toggleClass("active");
+		$(".mobile-navigation").toggleClass("active");
+	});
+</script>
+
+<!-- End Scripts -->
