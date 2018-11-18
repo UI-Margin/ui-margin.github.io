@@ -1,7 +1,5 @@
 @import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
-body {
-	background-color: #F2F2F2;
-}
+body {background-color: #F2F2F2;}
 .body-main {
 	display: grid;
 	grid-gap: 15px;
@@ -103,13 +101,77 @@ body {
 		header {text-indent: 25px;}
 	}
 	.logo-main {width: 240px;}
-	.footer-main {
-		position: relative;
-	}
-	.body-main {
-		margin-top: 50px;
-	}
+	.footer-main {position: relative;}
+	.body-main {margin-top: 50px;}
 }
 @media (min-width: 993px) {
 	.logo-main {width: 300px;}
+}
+
+// =============
+// Docs
+// =============
+
+// ==============
+// SideBar
+// ==============
+
+$primary-hover: #006DFF;
+$primary-bg: #0E3464;
+$primary-a-bg: #00204A;
+.sidebar-menu {
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #ffffff;
+	max-width: 250px;
+	background: $primary-bg;
+	&,
+	& ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		a {
+			position: relative;
+			display: block;
+			color: #ffffff;
+			text-decoration: none;
+			padding: 20px 25px;
+			> span {
+				margin-right: 30px;
+			}
+		}
+		&.have-children {
+			position: relative;
+			&:after {
+				right: 15px;
+				top: 17px;
+				border: solid transparent;
+				content: "\f054";
+				position: absolute;
+				pointer-events: none;
+				transition: all 0.2s ease;
+				font-family: 'FontAwesome';
+			}
+			a:hover {
+				background: $primary-hover;
+			}
+		}
+		ul {
+			display: none;
+			a {
+				background: $primary-a-bg;
+			}
+		}
+	}
+	:after {
+		transform: rotate(-90deg);
+	}
+	.active {
+		background-color: $primary-hover;
+		&:after {
+			transform: rotate(90deg);
+		}
+	}
 }
