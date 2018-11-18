@@ -170,7 +170,7 @@ $primary-a-bg: #00204A;
 					right: 15px;
 					top: 17px;
 					border: solid transparent;
-					content: "\f054";
+					content: "\f106";
 					position: absolute;
 					pointer-events: none;
 					transition: all 0.2s ease;
@@ -186,9 +186,6 @@ $primary-a-bg: #00204A;
 					background: $primary-a-bg;
 				}
 			}
-		}
-		:after {
-			transform: rotate(-90deg);
 		}
 		.active {
 			background-color: $primary-hover;
