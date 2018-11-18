@@ -141,6 +141,18 @@ $primary-a-bg: #00204A;
 	background-color: $primary-bg;
 	max-width: 250px;
 	width: 100%;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	width: 60px;
+	overflow: hidden;
+	transition: width .05s linear;
+	-webkit-transform: translateZ(0) scale(1,1);
+	z-index: 1000;
+	
 	&-menu {
 		width: 100%;
 		font-size: 12pt;
@@ -181,7 +193,7 @@ $primary-a-bg: #00204A;
 					font-weight: 900;
 					font-family: "Font Awesome 5 Free";
 					content: "\f106";
-					
+
 					position: absolute;
 					pointer-events: none;
 					transition: all 0.2s ease;
