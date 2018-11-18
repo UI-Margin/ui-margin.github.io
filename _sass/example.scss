@@ -170,11 +170,11 @@ $primary-a-bg: #00204A;
 					right: 15px;
 					top: 17px;
 					border: solid transparent;
+					font-family: "Font Awesome 5 Free";
 					content: "\f106";
 					position: absolute;
 					pointer-events: none;
 					transition: all 0.2s ease;
-					font-family: "Font Awesome 5 Free";
 				}
 				a:hover {
 					background: $primary-hover;
