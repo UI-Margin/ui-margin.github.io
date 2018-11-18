@@ -170,11 +170,27 @@ $primary-a-bg: #00204A;
 					right: 15px;
 					top: 17px;
 					border: solid transparent;
-					content: "\f054";
+					// content: "\f054";
 					position: absolute;
 					pointer-events: none;
 					transition: all 0.2s ease;
+					// font-family: "Font Awesome 5 Free";
+
+
+
+
 					font-family: "Font Awesome 5 Free";
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					display: inline-block;
+					font-style: normal;
+					font-variant: normal;
+					text-rendering: auto;
+					line-height: 1;
+					font-weight: 900;
+					content: "\f0e3";
+
+
 				}
 				a:hover {
 					background: $primary-hover;
