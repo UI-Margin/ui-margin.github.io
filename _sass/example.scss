@@ -209,13 +209,10 @@ $primary-a-bg: #00204A;
 				}
 			}
 		}
-		&:after {
-			transform: rotate(-90deg);
-		}
 		.active {
 			background-color: $primary-hover;
 			&:after {
-				transform: rotate(90deg);
+				transform: rotate(180deg);
 			}
 		}
 	}
