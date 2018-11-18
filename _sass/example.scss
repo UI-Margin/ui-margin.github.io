@@ -131,6 +131,23 @@ body {background-color: #F2F2F2;}
 // Docs
 // ==============
 
+// Маленькие девайсы (Смартфон)
+$screen-sm: 544px;
+
+// Маленькие девайсы пейзаж (Смартфон пейзаж)
+$screen-md: 768px;
+
+// Средние девайсы (Планшет)
+$screen-l: 993px;
+
+// Большие девайсы (Ноутбук)
+$screen-lg: 1200px;
+
+// Очень большие девайсы (Компьютер)
+$screen-xl: 1600px;
+
+$grid-width: 15px;
+
 .container-docs {
 	padding-right: ($grid-width / 2);
 	padding-left: ($grid-width / 2);
@@ -157,23 +174,6 @@ body {background-color: #F2F2F2;}
 @media (min-width: $screen-xl) {
 	.container-docs {width: 1400px;}
 }
-
-// Маленькие девайсы (Смартфон)
-$screen-sm: 544px;
-
-// Маленькие девайсы пейзаж (Смартфон пейзаж)
-$screen-md: 768px;
-
-// Средние девайсы (Планшет)
-$screen-l: 993px;
-
-// Большие девайсы (Ноутбук)
-$screen-lg: 1200px;
-
-// Очень большие девайсы (Компьютер)
-$screen-xl: 1600px;
-
-$grid-width: 15px;
 
 // ==============
 // SideBar
