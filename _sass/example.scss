@@ -192,6 +192,7 @@ $primary-a-bg: #00204A;
 					font-weight: 900;
 					font-family: "Font Awesome 5 Free";
 					content: "\f106";
+					font-size: 1.5em;
 
 					position: absolute;
 					pointer-events: none;
@@ -207,6 +208,9 @@ $primary-a-bg: #00204A;
 					background: $primary-a-bg;
 				}
 			}
+		}
+		&:after {
+			transform: rotate(-90deg);
 		}
 		.active {
 			background-color: $primary-hover;
