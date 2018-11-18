@@ -137,6 +137,7 @@ $primary-hover: #006DFF;
 $primary-bg: #0E3464;
 $primary-a-bg: #00204A;
 .sidebar {
+	position: absolute;
 	background-color: $primary-bg;
 	max-width: 250px;
 	width: 100%;
